@@ -1,4 +1,4 @@
-#Task
+# Task
 
 The task was to create a polynomial regression model using KERAS to predit the Y position depending on the time given   
 The dataset was cleaned from duplicates and normalized using MINMAX normalization before starting training and validation using KERAS   

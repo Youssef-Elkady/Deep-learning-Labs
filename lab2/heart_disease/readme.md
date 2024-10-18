@@ -1,18 +1,29 @@
 # Task
-
+     
 ### Objective:
-The goal is to build a binary classification model using a with Keras to predict heart disease based on health indicators from the provided dataset.    
+The goal is to build a binary classification model using a with Keras to predict heart disease based on health indicators from the provided dataset.      
+      
+### Dataset:     
+The dataset contains 22 columns, with HeartDiseaseorAttack as the target variable. It consists of various health indicators, including HighBP, BMI, Smoker, Diabetes, etc.     
+### Below is the residuals plot      
+
+### Tuner    
+
+The code is tuned using Keras Tuner to get the best hyperparameters for the best accuracy.     
+![image](https://github.com/user-attachments/assets/c28c9e26-b9a6-4d59-933f-40d23fd62c7b)
+
+
+![image](https://github.com/user-attachments/assets/2b3b5f9d-9a87-4885-9e07-d3d739c97222)
     
-### Dataset:    
-The dataset contains 22 columns, with HeartDiseaseorAttack as the target variable. It consists of various health indicators, including HighBP, BMI, Smoker, Diabetes, etc.Steps:### Below is the residuals plot      
-
-![image](https://github.com/user-attachments/assets/8bd23b6e-60ae-4b73-9a0e-f049e8a6f924)
-
-### Below is the actual vs predicted Y coordinates plot    
-
-![actual_vs_predicted_y](https://github.com/user-attachments/assets/fdc525e2-d9c9-4f08-99d5-3441f564aa22)
+    
+![image](https://github.com/user-attachments/assets/49c9ba1e-ea52-4457-bf53-cd355db9a242)
 
 
-## Dependecies
+### Below is the ROC curve    
 
-No dependcies needed as google collab has all the needed libraries pre installed. 
+![image](https://github.com/user-attachments/assets/9a2e434e-ba1f-445c-9d0b-cc8667f2c187)
+
+
+## Dependecies    
+   
+run the cell of pip install keras-tuner first    

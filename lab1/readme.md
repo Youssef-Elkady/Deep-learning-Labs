@@ -15,4 +15,4 @@ These were the training results
 
 ## Dependecies     
      
-run pip install keras-tuner before running the rest of the cells in the notebook
+no need for dependencies
